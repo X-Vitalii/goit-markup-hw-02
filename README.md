@@ -1,2 +1,2 @@
-# homework-1
-HTML code only
+# homework-2
+HTML+CSS
