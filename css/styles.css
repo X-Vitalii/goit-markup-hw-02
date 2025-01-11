@@ -1,3 +1,4 @@
+/*---body common---*/
 body {
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
@@ -9,7 +10,8 @@ a {
 ul {
     list-style-type: none;
 }
-.nav-text {
+/*---header styles---*/
+.ro-mid-nav a {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -17,13 +19,39 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
 }
-.ro-reg-left {
+.ro-mid-nav a:hover,
+.ro-mid-nav a:focus {
+    color: #404BBF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.ro-mid-nav .std:active {
+    color: #404BBF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+/*---Roboto regular---*/
+.ro-reg-left,
+.ro-reg-left a {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    
+}
+.ro-reg-left a:hover,
+.ro-reg-left a:focus {
+    color: #404BBF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
 .ro-reg-center {
     color: #434455;
@@ -32,6 +60,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
 }
+/*---Roboto medium---*/
 .ro-mid-left {
     color: #2e2f42;
     font-size: 20px;
@@ -48,14 +77,16 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
 }
+/*---Roboto bold---*/
 .ro-bo-center {
     color: #2e2f42;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
+/*---Hero font---*/
 .ro-hero {
     color: #ffffff;
     font-size: 56px;
@@ -64,6 +95,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
 }
+/*---logo font---*/
 .rw-bo-logo {
     color: #4d5ae5;
     font-family: Raleway;
@@ -74,6 +106,7 @@ ul {
     text-align: left;
     text-transform: uppercase;
 }
+/*---footer font--*/
 .ftr-text {
     color: #F4F4FD;
     font-size: 16px;
@@ -82,12 +115,35 @@ ul {
     text-align: left;
     font-style: normal;
 }
+/*---span colors---*/
 .cloud {
     color: #F4F4FD;
 }
 .navy-blue {
     color: #2E2F42;
 }
+/*---background colors---*/
 .ftr-sctnhero {
     background-color:#2e2f42
+}
+/*---others---*/
+.btn {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
