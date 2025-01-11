@@ -12,7 +12,7 @@ ul {
     list-style-type: none;
 }
 /*---header styles---*/
-.ro-mid-nav .nav-item {
+.ro-mid-nav a {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -20,8 +20,8 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
 }
-.ro-mid-nav .nav-item:hover,
-.ro-mid-nav .nav-item:focus {
+.ro-mid-nav a:hover,
+.ro-mid-nav a:focus {
     color: #404BBF;
     font-size: 16px;
     font-weight: 500;
@@ -29,7 +29,6 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
 }
-/*
 .ro-mid-nav .std:active {
     color: #404BBF;
     font-size: 16px;
@@ -38,7 +37,6 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
 }
-*/
 /*---Roboto regular---*/
 .ro-reg-left,
 .ro-reg-left a {
@@ -102,7 +100,7 @@ ul {
     text-align: center;
 }
 /*---logo font---*/
-.ro-mid-nav .rw-bo-logo {
+.rw-bo-logo {
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
