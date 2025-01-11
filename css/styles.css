@@ -29,6 +29,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
 }
+/*
 .ro-mid-nav .std:active {
     color: #404BBF;
     font-size: 16px;
@@ -37,6 +38,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
 }
+*/
 /*---Roboto regular---*/
 .ro-reg-left,
 .ro-reg-left a {
@@ -45,6 +47,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    font-style: normal;
 }
 .ro-reg-left a:hover,
 .ro-reg-left a:focus {
@@ -53,6 +56,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    font-style: normal;
 }
 .ro-reg-center {
     color: #434455;
@@ -128,10 +132,10 @@ ul {
 .ftr-sctnhero {
     background-color:#2e2f42
 }
-.o-tm {
+.o-team {
     background-color: #F4F4FD
 }
-.o-tm li {
+.o-team li {
     background-color: #FFFFFF;
 }
 /*---others---*/
