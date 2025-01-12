@@ -12,7 +12,7 @@ ul {
     list-style-type: none;
 }
 /*---header styles---*/
-.ro-mid-nav a {
+.ro-mid-nav {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -20,8 +20,8 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
 }
-.ro-mid-nav a:hover,
-.ro-mid-nav a:focus {
+.ro-mid-nav:hover,
+.ro-mid-nav:focus {
     color: #404BBF;
     font-size: 16px;
     font-weight: 500;
