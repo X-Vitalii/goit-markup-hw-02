@@ -39,7 +39,7 @@ ul {
 }----*/
 /*---Roboto regular---*/
 .ro-reg-left,
-.ro-reg-left a {
+.ro-reg-left .rrl-item {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -47,8 +47,8 @@ ul {
     text-align: left;
     font-style: normal;
 }
-.ro-reg-left a:hover,
-.ro-reg-left a:focus {
+.ro-reg-left .rrl-item:hover,
+.ro-reg-left .rrl-item:focus {
     color: #404BBF;
     font-size: 16px;
     line-height: 1.5;
